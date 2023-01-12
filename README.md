@@ -1,19 +1,35 @@
-LAB - Class xx
-Project: Project Name Here
-Author: Student/Group Name
-Links and Resources
-back-end server url (when applicable)
-front-end application (when applicable)
-Setup
-.env requirements (where applicable)
-i.e.
+# LAB - Class 19
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db
-How to initialize/run your application (where applicable)
-e.g. python main.py
-How to use your library (where applicable)
-Tests
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+## Project: Automation of Email and Phone Number Scraping
+
+## Author: Harper Foley
+
+## Links and Resources
+
+* [GitHub Repo](https://github.com/hfoley2013/automation)
+
+## Setup
+
+* To set up this repo create a local repository on your machine
+* Create a virtual environment for Python
+  * `python3.11 -m venv .venv`
+* Activate the venv file
+  * `source .venv/bin/activate`
+* Install `pytest`
+  * This will allow you to run tests on the program
+  * `pip install pytest`
+* Use `git clone` to clone the repo to your local machine
+  * `git clone https://github.com/hfoley2013/automation.git`
+
+## How to initialize/run your application
+
+* TODO
+
+## Tests
+
+* How do you run tests?
+  * Tests are conducted via `pytest`
+  * You may need to specify the location of the tests as follows:
+    * `pytest tests/test_automation.py`
+* Tests check for the following:
+  * TODO
