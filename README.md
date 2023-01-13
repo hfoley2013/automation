@@ -23,7 +23,10 @@
 
 ## How to initialize/run your application
 
-* TODO
+* To run the application, run `python3.11 modules/automation.py` in the command line
+* Before doing so, you can import the text you want to search into the `potential_contacts.txt` file or upload a new file
+  * NOTE: If you want to upload a new file, you will need to change the file path for the `with open()` function at the start of the program to reflect the name and location of your uploaded file
+* After running the program, the emails and phone numbers inside your document will populate into the `emails.txt` and `phone_numbers.txt` files respectively
 
 ## Tests
 
@@ -32,4 +35,5 @@
   * You may need to specify the location of the tests as follows:
     * `pytest tests/test_automation.py`
 * Tests check for the following:
-  * TODO
+  * We get the number of expected phone numbers: 100
+  * We get the number of expected emails: 100
